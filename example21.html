@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Exercise 4</title>
+    <style>
+        .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+      }
+      .flexContainer > div, div {
+        background-color: bisque;
+        margin: 10px;
+        width: fit-content;
+
+      }
+      header{
+          background-color: aquamarine;
+          min-height: 70px;
+          min-width: 1000px ;
+      }
+      footer{
+          background-color: aquamarine;
+          min-height: 70px;
+      }
+      .Leftbar, .Rightbar{
+          background-color: aqua;
+          color: black;
+          min-height: 300px;
+          width: 60%;
+
+      }
+      
+      
+    </style>
+</head>
+<body>
+    <div>
+    <header>This is going to be our header</header>
+    <div class="flexContainer">
+
+
+<div class="Leftbar">Division1
+    <p>Leftbar</p>
+<p>hello world</p>
+</div>
+
+<div>Divison 2
+    
+</div>
+
+<div class="Rightbar">Division2
+    <P>Rightbar</P>
+</div>
+  
+
+   
+    
+    </div>
+    <footer>
+        <p>This is our footer</p>
+    </footer>
+</div>
+
+</body>
+</html>
