@@ -1,5 +1,27 @@
 body{
-    background-color: rgb(180, 132, 132);
+    background-color: rgb(204, 168, 168);
 }
 
-div class
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(80, 55, 43);
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+
+nav{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
